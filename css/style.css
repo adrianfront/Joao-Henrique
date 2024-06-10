@@ -1,0 +1,173 @@
+/*ESTILIZAÇÃO GERAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+    padding: 10px 4% ;
+    }
+
+
+
+
+/*ESTILO DO CABEÇALHO*/
+
+header {
+    padding: 10px 4%;
+
+}
+
+header .logo {
+    width: 190px;
+    height: auto;
+
+
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+header .menu-d ul {
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+header .menu-d li {
+    display: inline;
+
+
+}
+
+
+header .menu-d li a {
+    padding: 10px 40px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    transition: .2s;
+}
+
+
+header .menu-d li a:hover {
+    color: rgb(65, 65, 65);
+    
+}
+
+header .btn-entrar {
+    float: right;
+
+
+
+}
+
+header .btn-entrar a.register {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: rgb(59, 102, 59);
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: .2s;
+}
+
+
+
+header .btn-entrar a.entrar {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(59, 102, 59);
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: .1s;
+
+}
+
+header .btn-entrar a.entrar:hover {
+    border: 0;
+    background-color: rgb(240, 221, 221);
+    border-radius: 20px;
+    color: rgb(71, 119, 71);
+
+}
+
+header .btn-entrar a.register:hover {
+    background-color: rgb(71, 119, 71);
+
+
+
+
+}
+
+/*ESTILO MAIN DO SITE*/
+ 
+section.topo-site{
+padding: 10px 4%;
+background-color: rgb(228, 228, 228);
+
+ }
+
+ section.topo-site .flex{
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 40px;
+gap: 40px;
+ }
+
+
+
+.topo-site .txt-topo h1{
+    color: black;
+font-size: 48px;
+line-height: 50px;
+
+
+}
+
+.topo-site .txt-topo p{
+text-align: justify;
+margin: 35px 0;
+
+
+
+}
+
+.topo-site .txt-topo h1 span{
+color: rgb(59, 102, 59);
+display: block;
+
+
+
+
+}
+ 
+
+ 
